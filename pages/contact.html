@@ -18,28 +18,52 @@
             <div= class="header-wrapper">
                 <ul class="menu">
                     <li class="open-menu">
-                        <a href="index.html">
+                        <a href="../index.html">
                             <img class="img-logo" src="../images/logo.png"  alt="logo">
                         </a>
-                        <a href="index.html">Inicio</a>
-                        <a href="about_us.html">Quienes Somos</a>
-                        <a href="why.html">¿Por qué nosotros?</a>
-                        <a href="pricing.html">Precios</a>
-                        <a href="contact.html">Contacto</a>
+                        <a href="../index.html">Inicio</a>
+                        <a href="../pages/about_us.html">Quienes Somos</a>
+                        <a href="../pages/why.html">¿Por qué nosotros?</a>
+                        <a href="../pages/pricing.html">Precios</a>
+                        <a href="../pages/contact.html">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </header>
     <section>
-        <div class="why">
-            <div class="texto-why">
-                <h1>TITULO WHY</h1>
-                <h4>Lorem, ipsum dolor.</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus eos amet recusandae in vel.
-                </p>
+        <div class="row">
+            <div class="info-contacto">
+                <div class="info-contacto">
+                    <h1>Contacto</h1>
+                    <p> 
+                        <br>Avenida Siempre Viva 742 - Springfield
+                    </p>
+                    <p>
+                        <br>+56 9 9922 9922
+                    </p>
+                </div>
             </div>
-        </div>    
+            <div class="form-contacto">
+                <h1>Envianos tu mensaje</h1>
+                <form action="formContacto.php" method="post">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="nombre" placeholder="Nombre">
+                        <label for="nombre">Nombre</label>
+                    </div>
+                    <div class="form-floating">
+                        <input type="email" class="form-control" id="email" placeholder="E-mail">
+                        <label for="email">E-mail</label>
+                    </div>
+                    <div class="form-floating">
+                        <textarea class="form-control" placeholder="Escriba su mensaje" id="mensaje" style="height: 100px"></textarea>
+                        <label for="mensaje">Mensaje</label>
+                    </div>
+                    <button type="submit" class="btn-basic">Enviar</button>
+                </form>
+
+            </div>
+        </div>
     </section>
     <div class="container">
         <footer>
@@ -48,11 +72,11 @@
             <div class="ft-main-item">
               <h2 class="ft-title">Nuestra Lavanderia</h2>
               <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="about_us.html">Quienes Somos</a></li>
-                <li><a href="why.html">¿Por qué nosotros?</a></li>
-                <li><a href="pricing.html">Precios</a></li>
-                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../pages/about_us.html">Quienes Somos</a></li>
+                <li><a href="../pages/why.html">¿Por qué nosotros?</a></li>
+                <li><a href="../pages/pricing.html">Precios</a></li>
+                <li><a href="../pages/contact.html">Contacto</a></li>
               </ul>
             </div>
 
@@ -76,7 +100,6 @@
           <!-- Footer legal -->
           <section class="ft-legal">
             <ul class="ft-legal-list">
-              <li><a href="#">Terminos y Condiciones</a></li>
               <li>&copy; 2023 Copyright.</li>
             </ul>
           </section>
