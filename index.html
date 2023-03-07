@@ -5,19 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lavanderia de Yeremy</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet"> 
+
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+    <!-- Header main -->
     <header class="header-section">
         <div class="header-container">
             <div= class="header-wrapper">
-                <div class="img-logo">
-                    <a href="/index.html">
-                        <img class="img-logo" src="/images/logo.png"  alt="logo">
-                    </a>
-                </div>
                 <ul class="menu">
                     <li class="open-menu">
+                        <a href="/index.html">
+                            <img class="img-logo" src="/images/logo.png"  alt="logo">
+                        </a>
                         <a href="/index.html">Inicio</a>
                         <a href="/pages/about_us.html">Quienes Somos</a>
                         <a href="/pages/why.html">¿Por qué nosotros?</a>
@@ -36,23 +39,45 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="footer-container">
-            <div class="footer-icons">
-                <a target="_blank" href="https://instagram.com">
-                    <img class="instagram-icon" src="./images/icons/instagram.png"  alt="instagram">
-                </a>
-                <a target="_blank" href="https://facebook.com">
-                    <img class="facebook-icon" src="./images/icons/facebook.png"  alt="facebook">
-                </a>
-                <a target="_blank" href="https://whatsapp.com">
-                    <img class="whatsapp-icon" src="./images/icons/whatsapp.png"  alt="whatsapp">
-                </a>
+    <div class="container">
+        <footer>
+          <!-- Footer main -->
+          <section class="ft-main">
+            <div class="ft-main-item">
+              <h2 class="ft-title">Nuestra Lavanderia</h2>
+              <ul>
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/pages/about_us.html">Quienes Somos</a></li>
+                <li><a href="/pages/why.html">¿Por qué nosotros?</a></li>
+                <li><a href="/pages/pricing.html">Precios</a></li>
+                <li><a href="/pages/contact.html">Contacto</a></li>
+              </ul>
             </div>
-            <div class="footer-text">
-                Todos los derechos reservados
-            </div>
-        </div>
-    </footer>
+
+          </section>
+        
+          <!-- Footer social -->
+          <section class="ft-social">
+            <ul class="ft-social-list">
+              <li><a target="_blank" href="https://facebook.com">
+                <img class="facebook-icon" src="/images/icons/facebook.png"  alt="facebook">
+            </a></li>
+              <li><a target="_blank" href="https://instagram.com">
+                <img class="instagram-icon" src="/images/icons/instagram.png"  alt="instagram">
+            </a></li>
+              <li><a target="_blank" href="https://whatsapp.com">
+                <img class="whatsapp-icon" src="/images/icons/whatsapp.png"  alt="whatsapp">
+            </a></li>
+            </ul>
+          </section>
+        
+          <!-- Footer legal -->
+          <section class="ft-legal">
+            <ul class="ft-legal-list">
+              <li>&copy; 2023 Copyright.</li>
+            </ul>
+          </section>
+        </footer>
+    </div>
 </body>
 </html>
