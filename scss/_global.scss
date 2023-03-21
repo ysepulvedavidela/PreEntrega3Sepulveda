@@ -34,12 +34,12 @@ img{
     height: auto;
 }
 
-nav, .servicios, .presentacion, .footer-content{
+nav, .servicios, .presentacion, .presentacion2, .footer-content{
     width: 80%;
     margin:auto;
 }
 
-.titulo-servicios, .presentacion{
+.titulo-servicios, .presentacion, .presentacion2{
     margin-bottom: 10%;
 }
 
@@ -51,6 +51,11 @@ $font-h2: 2.4rem;
 $font-h3: 2.0rem;
 
 p{
+    font-size:$font-p;
+    color: rgb(134, 132, 132);
+}
+
+li{
     font-size:$font-p;
     color: rgb(134, 132, 132);
 }
