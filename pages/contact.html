@@ -2,110 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lavanderia de Yeremy</title>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet"> 
-    
-    <link rel="stylesheet" href="../css/styles.css">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://kit.fontawesome.com/792df3d6b7.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <!-- Header main -->
-    <header class="header-section">
-        <div class="header-container">
-            <div= class="header-wrapper">
-                <ul class="menu">
-                    <li class="open-menu">
-                        <a href="../index.html">
-                            <img class="img-logo" src="../images/logo.png"  alt="logo">
-                        </a>
-                        <a href="../index.html">Inicio</a>
-                        <a href="../pages/about_us.html">Quienes Somos</a>
-                        <a href="../pages/why.html">¿Por qué nosotros?</a>
-                        <a href="../pages/pricing.html">Precios</a>
-                        <a href="../pages/contact.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </header>
-    <section class="body-form">
-        <!-- Form -->
-        <div id="box-contact">
-            <div class="form-box">
-              <form class="c-form" name="c-form" action="#" method="post">
-                <div class="two-columns">
-                  <fieldset>
-                    <label class="c-form-label" for="first-name">Nombre<span class="c-form-required"> *</span></label>
-                    <input id="first-name" class="c-form-input" type="text" name="your-first-name" placeholder="Tu nombre" required>
-                  </fieldset>
-      
-                  <fieldset>
-                    <label class="c-form-label" for="last-name">Apellido<span class="c-form-required"> *</span></label>
-                    <input id="last-name" class="c-form-input" type="text" name="your-last-name" placeholder="Tu apellido" required>
-                  </fieldset>
-                </div>
-      
-                <fieldset>
-                  <label class="c-form-label" for="email">Correo Electronico<span class="c-form-required"> *</span></label>
-                  <input id="email" class="c-form-input" type="email" name="your-email" placeholder="Email@ejemplo.com" required>
-                </fieldset>
-      
-                <fieldset>
-                  <label class="c-form-label" for="subject">Asunto<span class="c-form-required"> *</span></label>
-                  <input id="subject" class="c-form-input" type="text" name="your-subject" placeholder="Escriba un asunto" required>
-                </fieldset>
-      
-                <fieldset>
-                  <label class="c-form-label" for="comments">Mensaje<span class="c-form-required"> *</span></label>
-                  <textarea id="comments" class="c-form-input" name="your-comments" placeholder="Escriba su mensaje aquí" required></textarea>
-                </fieldset>
-                <button class="btn-basic" type="submit">Contactar</button>
-              </form>
-            </div>
-        </div>
-    </section>
-    <div class="container">
-        <footer>
-          <!-- Footer main -->
-          <section class="ft-main">
-            <div class="ft-main-item">
-              <h2 class="ft-title">Nuestra Lavanderia</h2>
-              <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../pages/about_us.html">Quienes Somos</a></li>
-                <li><a href="../pages/why.html">¿Por qué nosotros?</a></li>
-                <li><a href="../pages/pricing.html">Precios</a></li>
-                <li><a href="../pages/contact.html">Contacto</a></li>
-              </ul>
-            </div>
 
-          </section>
-        
-          <!-- Footer social -->
-          <section class="ft-social">
-            <ul class="ft-social-list">
-              <li><a target="_blank" href="https://facebook.com">
-                <img class="facebook-icon" src="../images/icons/facebook.png"  alt="facebook">
-            </a></li>
-              <li><a target="_blank" href="https://instagram.com">
-                <img class="instagram-icon" src="../images/icons/instagram.png"  alt="instagram">
-            </a></li>
-              <li><a target="_blank" href="https://whatsapp.com">
-                <img class="whatsapp-icon" src="../images/icons/whatsapp.png"  alt="whatsapp">
-            </a></li>
-            </ul>
-          </section>
-        
-          <!-- Footer legal -->
-          <section class="ft-legal">
-            <ul class="ft-legal-list">
-              <li>&copy; 2023 Copyright.</li>
-            </ul>
-          </section>
-        </footer>
+<body>
+
+  <!-- Header main -->
+  <header id="menu">         
+    <nav>
+        <a href="../index.html"><img src="../images/logo.png" class="logo" alt="logo" width="200" height="50"></a>
+        <ul>
+            <li><a href="../index.html">INICIO</a></li>
+            <li><a href="../pages/about_us.html">QUIENES SOMOS</a></li>
+            <li><a href="../pages/pricing.html">PRECIO</a></li>
+            <li><a href="../pages/contact.html">CONTACTO</a></li>
+        </ul>
+    </nav>            
+  </header>
+  
+  <section class="presentacion">
+    <div class="flex-item1">
+        <h1>Contacto</h1>
+        <p>
+          ¿Alguna duda?, ¿Necesitas otro servicio?, ¿Eres empresa y quieres una cotización?, contacta con nosotros.
+        </p>
     </div>
+</section>
+  <!-- Form -->
+  <section class="body-form">
+    <div id="box-contact">
+        <div class="form-box">
+          <form class="c-form" name="c-form" action="#" method="post">
+            <div class="two-columns">
+              <fieldset>
+                <label class="c-form-label" for="first-name">Nombre<span class="c-form-required"> *</span></label>
+                <input id="first-name" class="c-form-input" type="text" name="your-first-name" placeholder="Tu nombre" required>
+              </fieldset>
+  
+              <fieldset>
+                <label class="c-form-label" for="last-name">Apellido<span class="c-form-required"> *</span></label>
+                <input id="last-name" class="c-form-input" type="text" name="your-last-name" placeholder="Tu apellido" required>
+              </fieldset>
+            </div>
+  
+            <fieldset>
+              <label class="c-form-label" for="email">Correo Electronico<span class="c-form-required"> *</span></label>
+              <input id="email" class="c-form-input" type="email" name="your-email" placeholder="Email@ejemplo.com" required>
+            </fieldset>
+  
+            <fieldset>
+              <label class="c-form-label" for="subject">Asunto<span class="c-form-required"> *</span></label>
+              <input id="subject" class="c-form-input" type="text" name="your-subject" placeholder="Escriba un asunto" required>
+            </fieldset>
+  
+            <fieldset>
+              <label class="c-form-label" for="comments">Mensaje<span class="c-form-required"> *</span></label>
+              <textarea id="comments" class="c-form-input" name="your-comments" placeholder="Escriba su mensaje aquí" required></textarea>
+            </fieldset>
+            <button class="btn-basic" type="submit">Contactar</button>
+          </form>
+        </div>
+    </div>
+</section>
+
+
+  <!-- Footer main -->  
+  <footer>
+    <p class="footer-content">
+      Yeremy  &copy;Todos los derechos reservados 2023
+    </p>
+  </footer>
+  <script>
+    const menu = document.getElementById('menu');
+    window.onscroll = function(){
+      if(window.pageYOffset>10){
+        menu.style.backgroundColor='#fff';
+      }
+        else{
+          menu.style.backgroundColor='initial';
+        }
+    }
+  </script>
 </body>
 </html>

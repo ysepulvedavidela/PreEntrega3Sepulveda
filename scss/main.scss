@@ -1,0 +1,174 @@
+@import 'global';
+
+.logo{
+    width:100px;
+}
+
+header{
+    position:fixed;
+    top:0;
+    border-top: 30px solid rgb(52, 53, 51);
+    width:100%;
+}
+
+.wrapper{
+    background-color: #fff;
+    padding-top: 100px;
+    padding-bottom:100px;
+}
+
+.wrapper-precios{
+    background-color: #fff;
+    padding-top: 20px;
+    padding-bottom:100px;
+}
+
+nav{
+    @include caja-flex(space-between, center, nowrap);
+
+    ul{
+        display:flex;
+        padding:0;
+
+        a{
+            padding: 10px;
+            font-size: 1.6rem;
+            font-weight:bold;
+        }
+
+        a:hover{
+            color:#6495ED;
+            transform: scale(1.1);
+        }
+    }
+}
+// BODY GENERAL //
+.presentacion{
+    
+    padding-top: 200px;
+    padding-bottom:20px;
+    @include caja-flex(space-between, center, nowrap);
+
+    .flex-item2{
+        text-align:center;
+    }
+
+
+    h1{
+        margin-top:0;
+        padding-right: 20px;
+        font-size: $font-h1;
+    }
+
+    p{
+        padding-right: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+// WRAPER SERVICIOS //
+.servicios{
+    div{
+        text-align: center;
+    }
+
+    .tipo-servicios{
+        @include caja-flex(center, center, nowrap);
+        i{
+            font-size: 30px;
+            color: #6495ED;
+        }
+    }
+}
+
+// CONTACTO //
+.body-form {
+    padding-top: 20px;
+    padding-bottom:50px;
+    @include caja-flex(center, center, nowrap);
+  
+    .box-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        height: auto;
+        min-height: 600px;
+        padding: 20px;
+    }
+
+    .form-box {
+        width: 100%;
+        max-width: 400px;
+        padding: 30px 15px;
+        border-radius: 4px;
+        background-color: #fff;
+    }
+
+    .c-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .c-form-label {
+        display: inline-block;
+        margin: .5rem 0;
+        color: #3d3935;
+        letter-spacing: .2px;
+        font-size: 1rem;
+    }
+
+    .c-form-input {
+        width: 100%;
+        padding: 15px 10px;
+        border: 1px solid #3d3935;
+        border-radius: 4px;
+        background-color: #fff;
+        color: #3d3935;
+        outline: 0;
+    }
+
+    .c-form-input::placeholder {
+        color: #867d6c;
+        font-size: 1rem;
+    }
+
+    .c-form-required {
+        color: #b0092d;
+    }
+
+    textarea.c-form-input {
+        width: 100%;
+        min-height: 10ch;
+        max-height: 120ch;
+        padding: 10px;
+        resize: none;
+    }
+
+    .two-columns {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    
+    fieldset {
+        margin: .4rem 0;
+        padding: 0;
+        border: none;
+    }
+}
+
+// FOOTER //
+footer{
+    min-height: 80px;
+    background-color: rgb(52, 53, 51);
+    margin-top: 0;
+    .footer-content{
+        text-align:center;
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+}
+
+@import 'medios';

@@ -2,126 +2,103 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lavanderia de Yeremy</title>
-
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet"> 
-
-    <link rel="stylesheet" href="./css/styles.css">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/792df3d6b7.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <!-- Header main -->
-    <header class="header-section">
-        <div class="header-container">
-            <div= class="header-wrapper">
-                <ul class="menu">
-                    <li class="open-menu">
-                        <a href="index.html">
-                            <img class="img-logo" src="./images/logo.png"  alt="logo">
-                        </a>
-                        <a href="index.html">Inicio</a>
-                        <a href="./pages/about_us.html">Quienes Somos</a>
-                        <a href="./pages/why.html">¿Por qué nosotros?</a>
-                        <a href="./pages/pricing.html">Precios</a>
-                        <a href="./pages/contact.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    <header id="menu">         
+        <nav>
+            <a href="index.html"><img src="images/logo.png" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="./pages/about_us.html">QUIENES SOMOS</a></li>
+                <li><a href="./pages/pricing.html">PRECIO</a></li>
+                <li><a href="./pages/contact.html">CONTACTO</a></li>
+            </ul>
+        </nav>            
     </header>
-    <section>
-      <div class="iniciogrid">
-        <div class="inicio_logo">
-          <div class="texto-fondo">
-            <h1 class="titulo2">Los mejores precios del mercado</h1>
-        </div>
-        </div>
-        <div class="inicio_ubicacion">Ubicanos</div>
-        <div class="inicio_correo">Correo</div>
-        <div class="inicio_llamanos">Llamanos</div>
-      </div>
-      <div class="container-index">
-        <h1>Que ofrecemos</h1>
-        <section class="box-index">
-          <div class="box-index1">
-            <img class="icon-index-1" src="./images/index-icons/dom.png">
-            <div>
-              <div class="box-index-tittle">
-                <p>Lavado en seco</p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="box-index2">
-            <img class="icon-index-2" src="./images/index-icons/pluma.png">
-            <div>
-              <div class="box-index-tittle">
-                <p>Lavado de plumas</p>
-              </div>
-            </div>
-          </div>
+    
 
-          <div class="box-index3">
-            <img class="icon-index-3" src="./images/index-icons/gota-de-agua.png">
+
+    <!-- Body -->
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>Realizamos lavado a diferentes tipos de telas, también planchados</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis modi fugit temporibus porro atque, vel placeat impedit repellendus sint!
+            </p>
             <div>
-              <div class="box-index-tittle">
-                <p>Lavado de cortinas</p>
-              </div>
+                <a href="./pages/contact.html"><button class="btn-principal" type ="submit">COMUNICATE</button></a>
             </div>
-          </div>
-                
-          <div class="box-index4">
-            <img class="icon-index-4" src="./images/index-icons/camisetas.png">
-            <div>
-              <div class="box-index-tittle">
-                <p>Lavado Delicado</p>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+        </div>
+        <div class="flex-item2">
+            <img src="images/caratula.png" alt="caratula" width="500" height="400">
+        </div>
     </section>
-    <div class="container">
-        <footer>
-          <!-- Footer main -->
-          <section class="ft-main">
-            <div class="ft-main-item">
-              <h2 class="ft-title">Nuestra Lavanderia</h2>
-              <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="./pages/about_us.html">Quienes Somos</a></li>
-                <li><a href="./pages/why.html">¿Por qué nosotros?</a></li>
-                <li><a href="./pages/pricing.html">Precios</a></li>
-                <li><a href="./pages/contact.html">Contacto</a></li>
-              </ul>
-            </div>
 
-          </section>
-        
-          <!-- Footer social -->
-          <section class="ft-social">
-            <ul class="ft-social-list">
-              <li><a target="_blank" href="https://facebook.com">
-                <img class="facebook-icon" src="./images/icons/facebook.png"  alt="facebook">
-            </a></li>
-              <li><a target="_blank" href="https://instagram.com">
-                <img class="instagram-icon" src="./images/icons/instagram.png"  alt="instagram">
-            </a></li>
-              <li><a target="_blank" href="https://whatsapp.com">
-                <img class="whatsapp-icon" src="./images/icons/whatsapp.png"  alt="whatsapp">
-            </a></li>
-            </ul>
-          </section>
-        
-          <!-- Footer legal -->
-          <section class="ft-legal">
-            <ul class="ft-legal-list">
-              <li>&copy; 2023 Copyright.</li>
-            </ul>
-          </section>
-        </footer>
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Tenemos una amplia selección de servicios</h2>
+                <p>
+                    Poseemos maquinarias de la ultima tecnología para poder brindar a nuestros clientes los mejores lavados, 
+                    además de otorgarle seguridad a sus prendas, le daremos la seguridad a usted que esta en muy buenas manos.
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fa-sharp fa-solid fa-feather"></i>
+                    <h3>Lavado delicado</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-sun"></i>
+                    <h3>Secado natural</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-person-booth"></i>
+                    <h3>Lavado de cortinas</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-shirt"></i>
+                    <h3>Planchado</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                    </p>
+                </div>
+            </div>
+        </section>
     </div>
+
+    <!-- Footer main -->
+    <footer>
+        <p class="footer-content">
+            Yeremy  &copy;Todos los derechos reservados 2023
+        </p>
+    </footer>
+    <script>
+        const menu = document.getElementById('menu');
+        window.onscroll = function(){
+          if(window.pageYOffset>10){
+            menu.style.backgroundColor='#fff';
+          }
+            else{
+              menu.style.backgroundColor='initial';
+            }
+        }
+    </script>
 </body>
 </html>
