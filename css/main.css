@@ -97,7 +97,7 @@ h3 {
 header {
   position: fixed;
   top: 0;
-  border-top: 30px solid rgb(52, 53, 51);
+  border-top: 30px solid rgba(20, 95, 206, 0.781);
   width: 100%;
 }
 
@@ -244,13 +244,14 @@ nav ul a:hover {
 
 footer {
   min-height: 80px;
-  background-color: rgb(52, 53, 51);
+  background-color: rgba(20, 95, 206, 0.781);
   margin-top: 0;
 }
 footer .footer-content {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  color: #fff;
 }
 
 @media (min-width: 1400px) {
