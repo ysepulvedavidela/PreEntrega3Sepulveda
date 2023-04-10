@@ -177,6 +177,15 @@ nav ul a:hover {
   padding-bottom: 10px;
 }
 
+.presentacion3 {
+  padding-top: 80px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
 .servicios div {
   text-align: center;
 }
