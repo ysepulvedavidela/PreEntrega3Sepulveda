@@ -167,7 +167,7 @@ nav ul a:hover {
   align-items: center;
   flex-wrap: nowrap;
 }
-.presentacion2 h1 {
+.presentacion2 h2 {
   margin-top: 0;
   padding-right: 20px;
   font-size: 3rem;
@@ -178,8 +178,8 @@ nav ul a:hover {
 }
 
 .presentacion3 {
-  padding-top: 80px;
-  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
