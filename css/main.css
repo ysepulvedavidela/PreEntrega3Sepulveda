@@ -279,9 +279,34 @@ footer {
   background-color: rgba(20, 95, 206, 0.781);
   margin-top: 0;
 }
+footer .social-content a {
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin:0 20px;
+}
+.list-without-styles{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.flex-list{
+  display: flex;
+  justify-content: center;
+}
+
+.item-list a{
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
 footer .footer-content {
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-bottom: 30px;
   color: #fff;
 }
